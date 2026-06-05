@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<title>FreshBottle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>FreshBottle</h1>
+<img src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png" width="120">
+<h2>Ekologické láhve na pití</h2>
+<h3>Produkty</h3>
+<p>
+   FreshBottle Mini (249 Kč)
+<input type="number" id="p1" value="0" min="0" onchange="spocitat()">
+</p>
+<p>
+   FreshBottle Sport (299 Kč)
+<input type="number" id="p2" value="0" min="0" onchange="spocitat()">
+</p>
+<p>
+   FreshBottle Premium (399 Kč)
+<input type="number" id="p3" value="0" min="0" onchange="spocitat()">
+</p>
+<h3>Kontaktní údaje</h3>
+<input type="text" id="jmeno" placeholder="Jméno"><br><br>
+<input type="text" id="prijmeni" placeholder="Příjmení"><br><br>
+<input type="email" id="email" placeholder="E-mail"><br><br>
+<input type="tel" id="telefon" placeholder="Telefon"><br><br>
+<h2>Celková cena: <span id="cena">0</span> Kč</h2>
+<button onclick="odeslat()">Odeslat objednávku</button>
+<script src="script.js"></script>
+</body>
+</html>
+ 
